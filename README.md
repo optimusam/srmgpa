@@ -1,0 +1,2 @@
+# srmgpa
+Calculates SRM SEMESTER GRADE POINT AVERAGE
