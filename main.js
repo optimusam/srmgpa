@@ -45,4 +45,6 @@ function calculate()
     gpaDisp.textContent = gpa;
     reset.classList.remove("hidden");
     submit.classList.add("hidden");
+    window.scrollTo(0,0);
+
 }
