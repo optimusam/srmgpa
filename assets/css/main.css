@@ -9,12 +9,10 @@
     word-wrap: break-word; 
 }
 body{
-    width: 100%;
-    background: -webkit-linear-gradient(0deg, #2BC0E4 10%, #EAECC6 90%);
-    background: -moz-linear-gradient(0deg, #2BC0E4 10%, #EAECC6 90%);
-    background: -o-linear-gradient(0deg, #2BC0E4 10%, #EAECC6 90%);
-    background: -ms-linear-gradient(0deg, #2BC0E4 10%, #EAECC6 90%);
-    background: -w3c-linear-gradient(0deg, #2BC0E4 10%, #EAECC6 90%);
+      width: 100%;
+      background: #4b6cb7;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .container-fluid {
     background: inherit;
