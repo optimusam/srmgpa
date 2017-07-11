@@ -50,3 +50,10 @@ body{
 #gpa{
     color: azure;
 }
+.container-fluid hr{	
+    margin-right: 20%;	
+    border-color: violet;
+    }
+.like{	
+    margin-right: 20%;
+}
