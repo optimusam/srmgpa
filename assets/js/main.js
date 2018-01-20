@@ -40,11 +40,12 @@ function calculate(event)
             var gradept = grade_points[grade_list[i].value];
             points+=credit*gradept;
         }
-    var gpa = (points/sum_credits).toFixed(2);
-    console.log(gpa);
+    var gpa = (points/sum_credits);
+    var percent = (gpa*10).toFixed(0);
     $("#result").removeClass("hidden");
     $("#more").addClass("hidden");
-    $("#gpa").text(gpa);
+    $("#gpa").text(gpa.toFixed(2));
+    $(".progress-bar").css({"width": percent+"%"});
     $("#reset").removeClass("hidden");
     $("#go").addClass("hidden");
     window.scrollTo(0,0);

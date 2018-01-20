@@ -19,12 +19,19 @@
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="assets/css/main.css">
         <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body>
     <div class="container-fluid">
         <h1 class="style">SRM University<small class="text-muted">GPA Calculator</small></h1>
-        <h2 id="result" class="hidden text-center style">You have scored Grade Point Average of <strong><span id="gpa"></span></strong></h2>
+        <div class="hidden" id="result">
+                <h2 id="result" class="text-center style">You have scored Grade Point Average of <strong><span id="gpa"></span></strong></h2>
+                <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                          <span class="sr-only"></span>
+                        </div>
+                      </div>
+        </div>
+
             <div class="container">
                 <form class="form-inline" action="#">
                     <input type="reset" id="reset" class="hidden btn btn-danger btn-lg btn-block">
@@ -266,15 +273,5 @@
        
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-101619270-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-
 </body>
 </html>

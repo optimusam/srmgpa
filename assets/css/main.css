@@ -57,3 +57,16 @@ body{
 .like{	
     margin-right: 20%;
 }
+@media(max-width: 700px) 
+{
+    .container-fluid {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .container-fluid form table {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}
