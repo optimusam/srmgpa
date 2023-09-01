@@ -14,6 +14,10 @@ The GPA Calculator is a user-friendly tool that helps you quickly calculate your
 - Allows for adding more courses dynamically.
 - Reset option to start over.
 
+## Grade Details
+
+![Grade Rules](Grades.png)
+
 ## Demo
 
 You can try out this GPA Calculator by visiting this [link](https://optimusam.github.io/srmgpa/). Simply enter your course details and hit the "Submit" button to see your SGPA.
