@@ -4,15 +4,15 @@ grade_points = {
     "A":8,
     "B+":7,
     "B":6,
-    "C":5,
-    "P":4,
+    "C":5.5,
+    "W":0,
     "F":0,
     "Ab":0,
     "I":0
 };
 
 
-var count = 11;
+var count = 7;
 $("#go").on("click",calculate);
 $("#reset").on("click", function(){
     $("#go").removeClass("hidden");
