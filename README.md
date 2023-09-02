@@ -25,7 +25,4 @@ You can try out this GPA Calculator by visiting this [link](https://optimusam.gi
 ## Contributing
 Contributions are always welcome! Feel free to contribute to this project by creating a Pull Request.
 
-## License
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
