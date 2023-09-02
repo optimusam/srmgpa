@@ -4,15 +4,16 @@ grade_points = {
     "A":8,
     "B+":7,
     "B":6,
-    "C":5,
-    "P":4,
+    "C":5.5,
+    "W":0,
     "F":0,
     "Ab":0,
-    "I":0
+    "I":0,
+    "*":0
 };
 
 
-var count = 11;
+var count = 6;
 $("#go").on("click",calculate);
 $("#reset").on("click", function(){
     $("#go").removeClass("hidden");
@@ -54,5 +55,5 @@ function calculate(event)
 
 $("#more").on("click", function(event){
     count+=1;
-    $("form table").append("<tr><td>" + count + ".</td><td><input type='number' class='cred form-control'></td><td><select class='opt form-control'><option>O</option><option>A+</option><option>A</option><option>B+</option><option>B</option><option>C</option><option>P</option><option>F</option><option>Ab</option><option>I</option></select></td></tr>");
+    $("form table").append("<tr><td>" + count + ".</td><td><input type='number' class='cred form-control'></td><td><select class='opt form-control'><option>O</option><option>A+</option><option>A</option><option>B+</option><option>B</option><option>C</option><option>W</option><option>F</option><option>Ab</option><option>I</option><option>*</option></select></td></tr>");
 });
